@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-image: url(images/background.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    margin: 0 75px;
+
+}
+.logo{
+    width: 120px;
+}
+.headerMessage {
+    margin: 100px 75px;
+}
+
+.headerMessage p {
+    max-width: 550px;
+    font-size:20px;
+    font-style:normal;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+
+.box{
+    display: inline-block;
+    background-color: #f67c92;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 40px;
+}
+
+.navbar {
+    background: #f67c92;
+    height: 100vh;
+    position: fixed;
+    right: -350px;
+    top: 0;
+    width: 270px;
+    z-index: 1;
+    transition: .5s;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    margin: 70px 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.menu {
+    width: 52px;
+    position: fixed;
+    right: 30px;
+    z-index: 2;
+    top: 21px;
+    cursor: pointer;
+}
+.btn {
+    margin: 25px 0;
+    outline: none;
+    background: #ed8fa0;
+    width: 94px;
+    height: 49px;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+.box-row {
+    margin: 20px auto 0;
+    }
+.box1{
+    height: 12px;
+    width: 12px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.box2{
+    height: 5px;
+    width: 64px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.box3{
+    height: 4px;
+    width: 31px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+
+#about{
+    display: flex;
+    margin: 100px 0px 0;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+}
+.cl-left{
+    flex-basis: 50%;
+}
+.cl-right{
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.cl-left img{
+    width: 100%;
+}
+
+.aboutText {
+    margin: 140px 0;
+    max-width: 625px;
+}
+
+
+.text {
+    margin-left: 27px;
+  }
+  
+.aboutText h2{
+    font-size: 34px;
+}
+.aboutText p{
+    font-size:20px;
+    font-style:normal;
+}
+
+.feature-row {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.feature-col {
+    flex-basis: 25%;
+    text-align: center;
+}
+.feature-col img{
+    width: 165px;
+}
+p{
+    font-size: 20px;
+    font-style: normal;
+}
+h3{
+    font-size: 23px;
+    font-family:  'Merriweather', serif;
+}
+
+.Courses{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    margin: 150px 50px 0;
+}
+
+.course-left {
+    flex-basis: 50%;
+    }
+.course-left p{
+    max-width: 540px;
+}
+.course-right {
+    flex-basis: 50%;
+    }
+
+.course-right img {
+    width: 100%;
+    }
+
+h1 {
+    text-align: center;
+    margin: 74px;
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+  }
+  
+.contactUs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .contact-left{
+    flex-basis: 50%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .contact-right {
+    flex-basis: 50%;
+  }
+
+  .box-row3{
+    text-align: left;
+    margin-top: 20px;
+  }
+  .contact-right > img:nth-child(1) {
+    width: 100%;
+  }
+  
+
+
+
+
+form {
+    margin: 50px auto;
+    max-width: 441px;
+  }
+  
+  input {
+    width: 100%;
+    margin: 9px auto;
+    padding: 13px;
+    border: none;
+    box-sizing: border-box;
+    border: 3px solid #f67c92;
+    font-size: 18px;
+  }
+.btn-row button{
+    margin-right: 14px;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+.social-icons {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 40px;
+  }
+
+.social-icons img {
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+  }
+  
+
+@media only screen and (max-width:770px){
+
+    #header{
+        background-image: none;
+
+    }
+    .container {
+        margin: 0 60px;
+    
+    }
+    .logo{
+        width: 75px;
+        margin-top: 20px;
+    }
+    .headerMessage {
+        margin: 100px 70px;
+    }
+    
+    .headerMessage p {
+        font-size:20px;
+        font-style:normal;
+    }
+    h2{
+        font-family: 'Merriweather', serif;
+        font-size: 25px;
+    }
+    
+    .box{
+        display: inline-block;
+        background-color: #f67c92;
+        width: 10px;
+        height: 10px;
+        margin-bottom: 30px;
+        margin-right: 45px;
+    }
+    .navbar {
+        width: 200px;
+    }
+    .menu {
+        width: 40px;
+    }
+    .btn {
+        width: 75px;
+        height: 40px;
+
+    }
+    
+    #about{
+       margin-top: 220px;
+    }
+    .box-row {
+        margin: 20px 45px 0 auto;
+        /* margin: 20px auto 0 ; */
+        }
+    .box1{
+        height: 9px;
+        width: 9px;
+    }
+    .box2{
+        height: 4px;
+        width: 64px;
+    }
+
+
+    .cl-left{
+        flex-basis: 100%;
+    }
+    .cl-right{
+        flex-basis: 100%;
+    }
+    
+    .cl-left img{
+        width: 100%;
+    }
+    
+    .aboutText {
+        margin: 140px 0;
+        max-width: none;
+    }
+    
+    
+    .text {
+        margin-left: 27px;
+      }
+      
+    .aboutText h2{
+        font-size: 30px;
+        margin-right: 45px;
+    }
+    .aboutText p{
+        font-size:18px;
+        margin:0 45px;
+    }
+    
+    .feature-row {
+        margin-top: 2px;
+    }
+    
+    .feature-col {
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .feature-col img{
+        width: 165px;
+    }
+    p{
+        font-size: 20px;
+        font-style: normal;
+    }
+    h3{
+        font-size: 23px;
+        font-family:  'Merriweather', serif;
+    }
+    
+    .Courses{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px 50px 0;
+    }
+    
+    .course-left,.course-right {
+        flex-basis: 100%;
+        }
+    .course-left p{
+        max-width: none;
+    }
+
+    .course-right img {
+        width: 100%;
+        margin-top: 70px;
+        }
+    
+    h1 {
+        text-align: center;
+        margin: 60px;
+        font-size: 40px;
+        font-family: 'Merriweather', serif;
+      }
+      
+    .aboutText button{
+        margin-right:40px;
+    }
+    
+    
+
+}
+@media only screen and (max-width:700px){
+    .contact-left,.contact-right{
+        flex-basis: 100%;
+    }
+    .contactUs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      
+      .contact-left{
+        text-align: center;
+        margin: 0 50px;
+      }
+      .box-row3{
+        text-align: left;
+        margin-top: 20px;
+      }
+      .contact-right{
+          display: flex;
+          justify-content: center;
+          margin-bottom: 50px;
+      }
+      .contact-right > img:nth-child(1) {
+        width: 80%;
+      }
+      .cl-right .aboutText{
+          margin: 50px 0;
+      }
+    .social-icons img {
+        display: block;
+        width: 17px;
+        margin: 0 auto 20px;
+        cursor: pointer;
+      }
+}

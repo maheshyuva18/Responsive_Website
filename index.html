@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/logo.png" alt="logo" class="logo">
+        </div>
+        <div class="headerMessage">
+            <h2>Don't limit yourself. ...</h2><br>
+            <span class="box"></span>
+            <p>If you’re in a situation where you find yourself surrounded by negativity, then I urge you to print this
+                quote and put it in front of you. By doing so, you’re affirming your sovereignty and claiming your power
+            </p>
+            <div class="box-row">
+                <span class="box1"></span><br>
+                <span class="box2"></span><br>
+                <span class="box3"></span>
+            </div>
+
+            <button class="btn">Read More</button>
+        </div>
+
+    </section>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#About Us">About Us</a></li>
+            <li><a href="#Services">Services</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" class="menu">
+
+    <section id="about">
+        <div class="cl-left">
+            <img src="images/about.png" alt="about">
+        </div>
+        <div class="cl-right">
+            <div class="aboutText">
+                <h2>About</h2><br>
+                <span class="box"></span>
+                <p>The about us page is often a reflection of the purpose and personality of the business and its owners
+                    or top employees. Finally, the page can also incorporate contact or locational information. One way
+                    to view the about us concept is as a text self-portrait or short autobiography created by a
+                    business.</p>
+                <div class="box-row">
+                    <span class="box1"></span><br>
+                    <span class="box2"></span><br>
+                    <span class="box3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="feature-row">
+            <div class="feature-col">
+                <img src="images/pic-1.png">
+                <h3>heading1</h3><br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi ex illum optio dolore! Minus, sint.
+                </p>
+            </div>
+            <div class="feature-col">
+                <img src="images/pic-2.png">
+                <h3>heading2</h3><br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi ex illum optio dolore! Minus, sint.
+                </p>
+            </div>
+            <div class="feature-col">
+                <img src="images/pic-3.png">
+                <h3>heading3</h3><br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi ex illum optio dolore! Minus, sint.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="coursers">
+            <h1><u>Courses</u></h1>
+        </div>
+        <div class="Courses">
+            <div class="course-left">
+                <div class="text">
+
+                    <h2>heading3</h2><br>
+                    <span class="box"></span>
+                    <p>Lorem ipsum dolor s Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vel ab dolore
+                        aspernatur nesciunt quidem commodi quisquam rerum ipsa dicta. it, amet consectetur adipisicing
+                        elit. Modi ex illum optio dolore! Minus, sint.
+                    </p>
+                    <div class="box-row">
+                        <span class="box1"></span><br>
+                        <span class="box2"></span><br>
+                        <span class="box3"></span>
+                    </div>
+                    <button class="btn">Show More</button>
+
+                </div>
+            </div>
+            <div class="course-right"><img src="images/course.png"></div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="cl-left">
+            <img src="images/offer.png" alt="offer">
+        </div>
+        <div class="cl-right">
+            <div class="aboutText">
+                <h2>Offers</h2><br>
+                <span class="box"></span>
+                <p>Today's Deals. Great Savings. Every Day. Shop from our Deal of the Day, Lightning Deals and avail
+                    other great offers. Sign up for deal notifications.</p>
+                <div class="box-row">
+                    <span class="box1"></span><br>
+                    <span class="box2"></span><br>
+                    <span class="box3"></span>
+                </div>
+                <button class="btn">Show More</button>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contactUs">
+        <div class="contact-left">
+            <h2>Contact Form</h2>
+            <form>
+                <input type="text" placeholder="Enter Your Name">
+                <input type="number" placeholder="phone Number" maxlength="10" minlength="10">
+                <input type="email" placeholder="gmail">
+                <!-- <div class="box-row3">
+                    <span class="box1"></span><br>
+                    <span class="box2"></span><br>
+                    <span class="box3"></span>
+                </div> -->
+                <div class="btn-row">
+                    <button class="btn">Sign Up</button>
+                    <button class="btn">Start free trial</button>
+                </div>
+
+        </div>
+        <div class="contact-right"><img src="images/contact.png"></div>
+    </div>
+
+    </section>
+    <div class="social-icons">
+        <img src="images/instagram.png">
+        <img src="images/facebook.png">
+        <img src="images/twitter.png">
+        <img src="images/linkedin.png">
+    </div>
+</body>
+<script>
+    var menu = document.querySelector(".menu");
+    var navbar = document.querySelector(".navbar");
+    navbar.style.right = "-350px";
+    menu.onclick = function () {
+        if (navbar.style.right == "-350px") {
+            navbar.style.right = "0";
+        }
+        else {
+            navbar.style.right = "-350px";
+        }
+    }
+</script>
+
+</html>
